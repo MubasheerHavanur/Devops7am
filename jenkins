@@ -1,0 +1,15 @@
+#!/bin/bash
+
+echo "WELCOME"
+
+echo "Enter your name"
+
+read PERSON
+echo "Hello, $PERSON"
+
+echo -e "Your server hostname is \c";hostname
+echo -e "Your server memory is \c";free
+echo -e "Your server CPU status is \c";htop
+echo -e "Your server Disk status is  \c";df -h
+
+exit 0
